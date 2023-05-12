@@ -16,5 +16,22 @@ namespace CSharp_StructClass
         {
             InitializeComponent();
         }
+
+        struct Car
+        {
+            int cycle;
+            int window;
+            int door;
+            string name;
+        }
+
+        class cCar
+        {
+            int cycle;
+            int window;
+            int door;
+            string name;
+        }
+
     }
 }
