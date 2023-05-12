@@ -72,6 +72,7 @@
             this.pboxSun.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pboxSun.TabIndex = 2;
             this.pboxSun.TabStop = false;
+            this.pboxSun.Click += new System.EventHandler(this.pboxSun_Click);
             // 
             // pBoxMoon
             // 
@@ -82,6 +83,7 @@
             this.pBoxMoon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBoxMoon.TabIndex = 3;
             this.pBoxMoon.TabStop = false;
+            this.pBoxMoon.Click += new System.EventHandler(this.pBoxMoon_Click);
             // 
             // pBoxStar
             // 
@@ -92,6 +94,7 @@
             this.pBoxStar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBoxStar.TabIndex = 4;
             this.pBoxStar.TabStop = false;
+            this.pBoxStar.Click += new System.EventHandler(this.pBoxStar_Click);
             // 
             // pBoxNone
             // 
@@ -101,6 +104,7 @@
             this.pBoxNone.Size = new System.Drawing.Size(100, 119);
             this.pBoxNone.TabIndex = 5;
             this.pBoxNone.TabStop = false;
+            this.pBoxNone.Click += new System.EventHandler(this.pBoxNone_Click);
             // 
             // radioPlayer1
             // 
@@ -116,7 +120,7 @@
             // radioPlayer2
             // 
             this.radioPlayer2.AutoSize = true;
-            this.radioPlayer2.Location = new System.Drawing.Point(253, 206);
+            this.radioPlayer2.Location = new System.Drawing.Point(278, 206);
             this.radioPlayer2.Name = "radioPlayer2";
             this.radioPlayer2.Size = new System.Drawing.Size(69, 16);
             this.radioPlayer2.TabIndex = 7;
@@ -130,23 +134,23 @@
             this.lboxResult1.ItemHeight = 12;
             this.lboxResult1.Location = new System.Drawing.Point(14, 228);
             this.lboxResult1.Name = "lboxResult1";
-            this.lboxResult1.Size = new System.Drawing.Size(219, 100);
+            this.lboxResult1.Size = new System.Drawing.Size(249, 100);
             this.lboxResult1.TabIndex = 8;
             // 
             // lboxResult2
             // 
             this.lboxResult2.FormattingEnabled = true;
             this.lboxResult2.ItemHeight = 12;
-            this.lboxResult2.Location = new System.Drawing.Point(253, 228);
+            this.lboxResult2.Location = new System.Drawing.Point(278, 228);
             this.lboxResult2.Name = "lboxResult2";
-            this.lboxResult2.Size = new System.Drawing.Size(219, 100);
+            this.lboxResult2.Size = new System.Drawing.Size(239, 100);
             this.lboxResult2.TabIndex = 9;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(491, 342);
+            this.ClientSize = new System.Drawing.Size(529, 342);
             this.Controls.Add(this.lboxResult2);
             this.Controls.Add(this.lboxResult1);
             this.Controls.Add(this.radioPlayer2);
