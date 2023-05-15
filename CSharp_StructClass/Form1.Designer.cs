@@ -150,7 +150,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(529, 342);
+            this.ClientSize = new System.Drawing.Size(576, 458);
             this.Controls.Add(this.lboxResult2);
             this.Controls.Add(this.lboxResult1);
             this.Controls.Add(this.radioPlayer2);
