@@ -38,6 +38,8 @@
             this.radioPlayer2 = new System.Windows.Forms.RadioButton();
             this.lboxResult1 = new System.Windows.Forms.ListBox();
             this.lboxResult2 = new System.Windows.Forms.ListBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lboxSituationBoard = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.pboxSun)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxMoon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxStar)).BeginInit();
@@ -146,11 +148,33 @@
             this.lboxResult2.Size = new System.Drawing.Size(239, 100);
             this.lboxResult2.TabIndex = 9;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 342);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 12);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "- 상황판";
+            // 
+            // lboxSituationBoard
+            // 
+            this.lboxSituationBoard.BackColor = System.Drawing.Color.DimGray;
+            this.lboxSituationBoard.ForeColor = System.Drawing.SystemColors.Window;
+            this.lboxSituationBoard.FormattingEnabled = true;
+            this.lboxSituationBoard.ItemHeight = 12;
+            this.lboxSituationBoard.Location = new System.Drawing.Point(14, 358);
+            this.lboxSituationBoard.Name = "lboxSituationBoard";
+            this.lboxSituationBoard.Size = new System.Drawing.Size(503, 88);
+            this.lboxSituationBoard.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(576, 458);
+            this.Controls.Add(this.lboxSituationBoard);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.lboxResult2);
             this.Controls.Add(this.lboxResult1);
             this.Controls.Add(this.radioPlayer2);
@@ -184,6 +208,8 @@
         private System.Windows.Forms.RadioButton radioPlayer2;
         private System.Windows.Forms.ListBox lboxResult1;
         private System.Windows.Forms.ListBox lboxResult2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ListBox lboxSituationBoard;
     }
 }
 
